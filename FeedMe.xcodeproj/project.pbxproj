@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED2405731AC60CB40084C07C /* RestaurantAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE374291AAB56CC0029D0F2 /* RestaurantAPI.swift */; };
+		ED2FC9F81AC8AC5D00AEBA60 /* FMErrorInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FC9F71AC8AC5D00AEBA60 /* FMErrorInterfaceController.swift */; };
+		ED3C92981AC8388700970B08 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58D81AA73DE1005976B5 /* LocationManager.swift */; };
+		ED5444F51AA7433800CAB8C5 /* FMRestaurantsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5444F41AA7433800CAB8C5 /* FMRestaurantsInterfaceController.swift */; };
+		ED5444F71AA7446D00CAB8C5 /* FMRestaurantRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5444F61AA7446D00CAB8C5 /* FMRestaurantRowController.swift */; };
+		ED9C41791AA92C1D00D028E4 /* FMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58C81AA73BFB005976B5 /* FMConstants.swift */; };
+		ED9C417E1AA9D56F00D028E4 /* FMRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C417D1AA9D56F00D028E4 /* FMRestaurant.swift */; };
+		ED9C417F1AA9D56F00D028E4 /* FMRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9C417D1AA9D56F00D028E4 /* FMRestaurant.swift */; };
+		EDEE58A91AA73B93005976B5 /* FMAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58A81AA73B93005976B5 /* FMAppDelegate.swift */; };
+		EDEE58AB1AA73B93005976B5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58AA1AA73B93005976B5 /* ViewController.swift */; };
+		EDEE58AE1AA73B93005976B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58AC1AA73B93005976B5 /* Main.storyboard */; };
+		EDEE58B01AA73B93005976B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58AF1AA73B93005976B5 /* Images.xcassets */; };
+		EDEE58B31AA73B93005976B5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58B11AA73B93005976B5 /* LaunchScreen.xib */; };
+		EDEE58BF1AA73B93005976B5 /* FeedMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58BE1AA73B93005976B5 /* FeedMeTests.swift */; };
+		EDEE58C91AA73BFB005976B5 /* FMConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58C81AA73BFB005976B5 /* FMConstants.swift */; };
+		EDEE58D41AA73CCB005976B5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDEE58D31AA73CCB005976B5 /* CoreLocation.framework */; };
+		EDEE58DC1AA73DE1005976B5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58D81AA73DE1005976B5 /* LocationManager.swift */; };
+		EDEE58E71AA73FD9005976B5 /* FMMainInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDEE58E61AA73FD9005976B5 /* FMMainInterfaceController.swift */; };
+		EDEE58E91AA73FD9005976B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58E81AA73FD9005976B5 /* Images.xcassets */; };
+		EDEE58ED1AA73FDA005976B5 /* FeedMe WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58EC1AA73FDA005976B5 /* FeedMe WatchKit App.app */; };
+		EDEE58F51AA73FDA005976B5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58F31AA73FDA005976B5 /* Interface.storyboard */; };
+		EDEE58F71AA73FDA005976B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDEE58F61AA73FDA005976B5 /* Images.xcassets */; };
+		EDEE58FA1AA73FDA005976B5 /* FeedMe WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = EDEE58E21AA73FD9005976B5 /* FeedMe WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDEE58B91AA73B93005976B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEE589B1AA73B93005976B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEE58A21AA73B93005976B5;
+			remoteInfo = FeedMe;
+		};
+		EDEE58EE1AA73FDA005976B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEE589B1AA73B93005976B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEE58EB1AA73FDA005976B5;
+			remoteInfo = "FeedMe WatchKit App";
+		};
+		EDEE58F81AA73FDA005976B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDEE589B1AA73B93005976B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDEE58E11AA73FD9005976B5;
+			remoteInfo = "FeedMe WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDEE59011AA73FDA005976B5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				EDEE58FA1AA73FDA005976B5 /* FeedMe WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ED2FC9F11AC86EAC00AEBA60 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		ED2FC9F71AC8AC5D00AEBA60 /* FMErrorInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMErrorInterfaceController.swift; sourceTree = "<group>"; };
+		ED5444F41AA7433800CAB8C5 /* FMRestaurantsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMRestaurantsInterfaceController.swift; sourceTree = "<group>"; };
+		ED5444F61AA7446D00CAB8C5 /* FMRestaurantRowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMRestaurantRowController.swift; sourceTree = "<group>"; };
+		ED9C417D1AA9D56F00D028E4 /* FMRestaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMRestaurant.swift; path = Model/FMRestaurant.swift; sourceTree = "<group>"; };
+		EDE374291AAB56CC0029D0F2 /* RestaurantAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantAPI.swift; sourceTree = "<group>"; };
+		EDEE58A31AA73B93005976B5 /* FeedMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE58A71AA73B93005976B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE58A81AA73B93005976B5 /* FMAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMAppDelegate.swift; sourceTree = "<group>"; };
+		EDEE58AA1AA73B93005976B5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDEE58AD1AA73B93005976B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDEE58AF1AA73B93005976B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDEE58B21AA73B93005976B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDEE58B81AA73B93005976B5 /* FeedMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE58BD1AA73B93005976B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE58BE1AA73B93005976B5 /* FeedMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMeTests.swift; sourceTree = "<group>"; };
+		EDEE58C81AA73BFB005976B5 /* FMConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMConstants.swift; sourceTree = "<group>"; };
+		EDEE58D31AA73CCB005976B5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EDEE58D81AA73DE1005976B5 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EDEE58E21AA73FD9005976B5 /* FeedMe WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FeedMe WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE58E51AA73FD9005976B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE58E61AA73FD9005976B5 /* FMMainInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMMainInterfaceController.swift; sourceTree = "<group>"; };
+		EDEE58E81AA73FD9005976B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDEE58EC1AA73FDA005976B5 /* FeedMe WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FeedMe WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDEE58F21AA73FDA005976B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDEE58F41AA73FDA005976B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		EDEE58F61AA73FDA005976B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6172BF490DDBF5BC11C0D636 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58A01AA73B93005976B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58D41AA73CCB005976B5 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58B51AA73B93005976B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58DF1AA73FD9005976B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED2FC9F51AC8AA6400AEBA60 /* InterfaceControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58E61AA73FD9005976B5 /* FMMainInterfaceController.swift */,
+				ED5444F41AA7433800CAB8C5 /* FMRestaurantsInterfaceController.swift */,
+				ED2FC9F71AC8AC5D00AEBA60 /* FMErrorInterfaceController.swift */,
+			);
+			name = InterfaceControllers;
+			sourceTree = "<group>";
+		};
+		ED2FC9F61AC8AA6E00AEBA60 /* RowControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED5444F61AA7446D00CAB8C5 /* FMRestaurantRowController.swift */,
+			);
+			name = RowControllers;
+			sourceTree = "<group>";
+		};
+		ED9C417C1AA9D53400D028E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED9C417D1AA9D56F00D028E4 /* FMRestaurant.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EDEE589A1AA73B93005976B5 = {
+			isa = PBXGroup;
+			children = (
+				EDEE58A51AA73B93005976B5 /* FeedMe */,
+				EDEE58BB1AA73B93005976B5 /* FeedMeTests */,
+				EDEE58E31AA73FD9005976B5 /* FeedMe WatchKit Extension */,
+				EDEE58F01AA73FDA005976B5 /* FeedMe WatchKit App */,
+				EDEE58A41AA73B93005976B5 /* Products */,
+				EDEE58D51AA73CE1005976B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEE58A41AA73B93005976B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58A31AA73B93005976B5 /* FeedMe.app */,
+				EDEE58B81AA73B93005976B5 /* FeedMeTests.xctest */,
+				EDEE58E21AA73FD9005976B5 /* FeedMe WatchKit Extension.appex */,
+				EDEE58EC1AA73FDA005976B5 /* FeedMe WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDEE58A51AA73B93005976B5 /* FeedMe */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58A81AA73B93005976B5 /* FMAppDelegate.swift */,
+				EDEE58C81AA73BFB005976B5 /* FMConstants.swift */,
+				EDEE58AA1AA73B93005976B5 /* ViewController.swift */,
+				EDEE58AC1AA73B93005976B5 /* Main.storyboard */,
+				EDEE58AF1AA73B93005976B5 /* Images.xcassets */,
+				EDEE58B11AA73B93005976B5 /* LaunchScreen.xib */,
+				ED9C417C1AA9D53400D028E4 /* Model */,
+				EDEE58D61AA73DE1005976B5 /* Shared */,
+				EDEE58CA1AA73C17005976B5 /* Supporting Files */,
+			);
+			path = FeedMe;
+			sourceTree = "<group>";
+		};
+		EDEE58BB1AA73B93005976B5 /* FeedMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58BE1AA73B93005976B5 /* FeedMeTests.swift */,
+				EDEE58BC1AA73B93005976B5 /* Supporting Files */,
+			);
+			path = FeedMeTests;
+			sourceTree = "<group>";
+		};
+		EDEE58BC1AA73B93005976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58BD1AA73B93005976B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEE58CA1AA73C17005976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58A71AA73B93005976B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEE58D51AA73CE1005976B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FC9F11AC86EAC00AEBA60 /* MapKit.framework */,
+				EDEE58D31AA73CCB005976B5 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDEE58D61AA73DE1005976B5 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58D71AA73DE1005976B5 /* WatchKitManager */,
+				EDEE58D91AA73DE1005976B5 /* RestaurantAPI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		EDEE58D71AA73DE1005976B5 /* WatchKitManager */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58D81AA73DE1005976B5 /* LocationManager.swift */,
+			);
+			path = WatchKitManager;
+			sourceTree = "<group>";
+		};
+		EDEE58D91AA73DE1005976B5 /* RestaurantAPI */ = {
+			isa = PBXGroup;
+			children = (
+				EDE374291AAB56CC0029D0F2 /* RestaurantAPI.swift */,
+			);
+			path = RestaurantAPI;
+			sourceTree = "<group>";
+		};
+		EDEE58E31AA73FD9005976B5 /* FeedMe WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED2FC9F51AC8AA6400AEBA60 /* InterfaceControllers */,
+				ED2FC9F61AC8AA6E00AEBA60 /* RowControllers */,
+				EDEE58E81AA73FD9005976B5 /* Images.xcassets */,
+				EDEE58E41AA73FD9005976B5 /* Supporting Files */,
+			);
+			path = "FeedMe WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		EDEE58E41AA73FD9005976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58E51AA73FD9005976B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDEE58F01AA73FDA005976B5 /* FeedMe WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58F31AA73FDA005976B5 /* Interface.storyboard */,
+				EDEE58F61AA73FDA005976B5 /* Images.xcassets */,
+				EDEE58F11AA73FDA005976B5 /* Supporting Files */,
+			);
+			path = "FeedMe WatchKit App";
+			sourceTree = "<group>";
+		};
+		EDEE58F11AA73FDA005976B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEE58F21AA73FDA005976B5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDEE58A21AA73B93005976B5 /* FeedMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE58C21AA73B93005976B5 /* Build configuration list for PBXNativeTarget "FeedMe" */;
+			buildPhases = (
+				EDEE589F1AA73B93005976B5 /* Sources */,
+				EDEE58A01AA73B93005976B5 /* Frameworks */,
+				EDEE58A11AA73B93005976B5 /* Resources */,
+				EDEE59011AA73FDA005976B5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEE58F91AA73FDA005976B5 /* PBXTargetDependency */,
+			);
+			name = FeedMe;
+			productName = FeedMe;
+			productReference = EDEE58A31AA73B93005976B5 /* FeedMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDEE58B71AA73B93005976B5 /* FeedMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE58C51AA73B93005976B5 /* Build configuration list for PBXNativeTarget "FeedMeTests" */;
+			buildPhases = (
+				EDEE58B41AA73B93005976B5 /* Sources */,
+				EDEE58B51AA73B93005976B5 /* Frameworks */,
+				EDEE58B61AA73B93005976B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEE58BA1AA73B93005976B5 /* PBXTargetDependency */,
+			);
+			name = FeedMeTests;
+			productName = FeedMeTests;
+			productReference = EDEE58B81AA73B93005976B5 /* FeedMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EDEE58E11AA73FD9005976B5 /* FeedMe WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE58FE1AA73FDA005976B5 /* Build configuration list for PBXNativeTarget "FeedMe WatchKit Extension" */;
+			buildPhases = (
+				EDEE58DE1AA73FD9005976B5 /* Sources */,
+				EDEE58DF1AA73FD9005976B5 /* Frameworks */,
+				EDEE58E01AA73FD9005976B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDEE58EF1AA73FDA005976B5 /* PBXTargetDependency */,
+			);
+			name = "FeedMe WatchKit Extension";
+			productName = "FeedMe WatchKit Extension";
+			productReference = EDEE58E21AA73FD9005976B5 /* FeedMe WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		EDEE58EB1AA73FDA005976B5 /* FeedMe WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDEE58FB1AA73FDA005976B5 /* Build configuration list for PBXNativeTarget "FeedMe WatchKit App" */;
+			buildPhases = (
+				EDEE58EA1AA73FDA005976B5 /* Resources */,
+				6172BF490DDBF5BC11C0D636 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FeedMe WatchKit App";
+			productName = "FeedMe WatchKit App";
+			productReference = EDEE58EC1AA73FDA005976B5 /* FeedMe WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDEE589B1AA73B93005976B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Julio Rivera";
+				TargetAttributes = {
+					EDEE58A21AA73B93005976B5 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RKX894C5LD;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					EDEE58B71AA73B93005976B5 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = EDEE58A21AA73B93005976B5;
+					};
+					EDEE58E11AA73FD9005976B5 = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = RKX894C5LD;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					EDEE58EB1AA73FDA005976B5 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = EDEE589E1AA73B93005976B5 /* Build configuration list for PBXProject "FeedMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDEE589A1AA73B93005976B5;
+			productRefGroup = EDEE58A41AA73B93005976B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDEE58A21AA73B93005976B5 /* FeedMe */,
+				EDEE58B71AA73B93005976B5 /* FeedMeTests */,
+				EDEE58E11AA73FD9005976B5 /* FeedMe WatchKit Extension */,
+				EDEE58EB1AA73FDA005976B5 /* FeedMe WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDEE58A11AA73B93005976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58AE1AA73B93005976B5 /* Main.storyboard in Resources */,
+				EDEE58B31AA73B93005976B5 /* LaunchScreen.xib in Resources */,
+				EDEE58B01AA73B93005976B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58B61AA73B93005976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58E01AA73FD9005976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58ED1AA73FDA005976B5 /* FeedMe WatchKit App.app in Resources */,
+				EDEE58E91AA73FD9005976B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58EA1AA73FDA005976B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58F51AA73FDA005976B5 /* Interface.storyboard in Resources */,
+				EDEE58F71AA73FDA005976B5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDEE589F1AA73B93005976B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58AB1AA73B93005976B5 /* ViewController.swift in Sources */,
+				EDEE58C91AA73BFB005976B5 /* FMConstants.swift in Sources */,
+				EDEE58DC1AA73DE1005976B5 /* LocationManager.swift in Sources */,
+				EDEE58A91AA73B93005976B5 /* FMAppDelegate.swift in Sources */,
+				ED9C417E1AA9D56F00D028E4 /* FMRestaurant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58B41AA73B93005976B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDEE58BF1AA73B93005976B5 /* FeedMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEE58DE1AA73FD9005976B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED2405731AC60CB40084C07C /* RestaurantAPI.swift in Sources */,
+				ED9C41791AA92C1D00D028E4 /* FMConstants.swift in Sources */,
+				ED2FC9F81AC8AC5D00AEBA60 /* FMErrorInterfaceController.swift in Sources */,
+				EDEE58E71AA73FD9005976B5 /* FMMainInterfaceController.swift in Sources */,
+				ED5444F71AA7446D00CAB8C5 /* FMRestaurantRowController.swift in Sources */,
+				ED5444F51AA7433800CAB8C5 /* FMRestaurantsInterfaceController.swift in Sources */,
+				ED9C417F1AA9D56F00D028E4 /* FMRestaurant.swift in Sources */,
+				ED3C92981AC8388700970B08 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDEE58BA1AA73B93005976B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEE58A21AA73B93005976B5 /* FeedMe */;
+			targetProxy = EDEE58B91AA73B93005976B5 /* PBXContainerItemProxy */;
+		};
+		EDEE58EF1AA73FDA005976B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEE58EB1AA73FDA005976B5 /* FeedMe WatchKit App */;
+			targetProxy = EDEE58EE1AA73FDA005976B5 /* PBXContainerItemProxy */;
+		};
+		EDEE58F91AA73FDA005976B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDEE58E11AA73FD9005976B5 /* FeedMe WatchKit Extension */;
+			targetProxy = EDEE58F81AA73FDA005976B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDEE58AC1AA73B93005976B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE58AD1AA73B93005976B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDEE58B11AA73B93005976B5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE58B21AA73B93005976B5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		EDEE58F31AA73FDA005976B5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDEE58F41AA73FDA005976B5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDEE58C01AA73B93005976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEE58C11AA73B93005976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDEE58C31AA73B93005976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+				);
+				INFOPLIST_FILE = FeedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDEE58C41AA73B93005976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = FeedMe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		EDEE58C61AA73B93005976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedMe.app/FeedMe";
+			};
+			name = Debug;
+		};
+		EDEE58C71AA73B93005976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FeedMeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FeedMe.app/FeedMe";
+			};
+			name = Release;
+		};
+		EDEE58FC1AA73FDA005976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = FeedMe_WatchKit_Extension;
+				INFOPLIST_FILE = "FeedMe WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		EDEE58FD1AA73FDA005976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = FeedMe_WatchKit_Extension;
+				INFOPLIST_FILE = "FeedMe WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		EDEE58FF1AA73FDA005976B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "$(inherited)";
+				INFOPLIST_FILE = "FeedMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		EDEE59001AA73FDA005976B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = NO;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = "FeedMe WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDEE589E1AA73B93005976B5 /* Build configuration list for PBXProject "FeedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE58C01AA73B93005976B5 /* Debug */,
+				EDEE58C11AA73B93005976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE58C21AA73B93005976B5 /* Build configuration list for PBXNativeTarget "FeedMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE58C31AA73B93005976B5 /* Debug */,
+				EDEE58C41AA73B93005976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE58C51AA73B93005976B5 /* Build configuration list for PBXNativeTarget "FeedMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE58C61AA73B93005976B5 /* Debug */,
+				EDEE58C71AA73B93005976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE58FB1AA73FDA005976B5 /* Build configuration list for PBXNativeTarget "FeedMe WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE58FC1AA73FDA005976B5 /* Debug */,
+				EDEE58FD1AA73FDA005976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDEE58FE1AA73FDA005976B5 /* Build configuration list for PBXNativeTarget "FeedMe WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDEE58FF1AA73FDA005976B5 /* Debug */,
+				EDEE59001AA73FDA005976B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDEE589B1AA73B93005976B5 /* Project object */;
+}
