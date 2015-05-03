@@ -10,7 +10,7 @@ import Foundation
 import CoreLocation
 import MapKit
 
-class FMRestaurant : NSObject {
+class FMRestaurant : NSObject, DebugPrintable {
     // restrict setter access to within this class
     private(set) var name:String?
     private(set) var phoneNumber:String?
@@ -29,6 +29,9 @@ class FMRestaurant : NSObject {
                 self.distance = String(format:"%.2f mi", distance/Constants.Floats.MetersToMiles)
             }
         }
+    }
 
+    override var debugDescription : String {
+        return "Name: \( self.name) \nDistance: \(self.distance)"
     }
 }

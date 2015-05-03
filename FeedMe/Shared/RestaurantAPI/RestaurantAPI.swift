@@ -27,11 +27,12 @@ class RestaurantAPI : NSObject {
             request.naturalLanguageQuery = "Restaurants"
 
             // set region of MKLocalSearchRequest to be
-            // 15 miles (lat and lon) from the user's location
+            // 10 miles (lat and lon) from the user's location
             let miles = 10.0
             if let loc = location {
                 let coordinate = CLLocationCoordinate2DMake(loc.coordinate.latitude, loc.coordinate.longitude)
-                let region = MKCoordinateRegionMakeWithDistance(coordinate, miles * Constants.Floats.MetersToMiles,
+                let region = MKCoordinateRegionMakeWithDistance(coordinate,
+                    miles * Constants.Floats.MetersToMiles,
                     miles * Constants.Floats.MetersToMiles)
                 request.region = region
 
@@ -46,7 +47,11 @@ class RestaurantAPI : NSObject {
                             var restaurant = FMRestaurant(mapItem: item, location:location )
                             restaurantArray.append(restaurant)
                         }
-                        completion(restaurantArray, nil)
+                        var sortedRestaurantArray = restaurantArray.sorted({ (
+                            restA:FMRestaurant, restB:FMRestaurant) -> Bool in
+                            return restA.distance < restB.distance
+                        })
+                        completion(sortedRestaurantArray, nil)
                     }
                 }
             }
